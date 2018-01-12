@@ -1,2 +1,2 @@
 # IPCDemo
-android ipc demo
+android IPC demo
