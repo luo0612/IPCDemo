@@ -9,7 +9,7 @@ import android.util.Log
  */
 class IPCWrapper {
     companion object {
-        val TAG: String = "IPCWrapper"
+        private val TAG: String = "IPCWrapper"
         val VALUE = "value"
 
         fun getLocalValue(context: Context, field: String?): String? {
@@ -29,7 +29,7 @@ class IPCWrapper {
             return Uri.withAppendedPath(IPCProvider.ipcUriBase, field ?: "")
         }
 
-        fun logi(log: Any?) {
+        private fun logi(log: Any?) {
             Log.i(TAG, log?.toString() ?: "null")
         }
     }
