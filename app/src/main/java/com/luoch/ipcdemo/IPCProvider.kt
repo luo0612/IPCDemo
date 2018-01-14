@@ -7,7 +7,6 @@ import android.content.UriMatcher
 import android.database.Cursor
 import android.database.MatrixCursor
 import android.net.Uri
-import java.util.regex.Matcher
 
 /**
  * Created by luoch on 2018/1/12.
